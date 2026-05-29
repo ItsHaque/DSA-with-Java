@@ -16,6 +16,8 @@ public class Main {
         Pattern6 p6 = new Pattern6();
 //        p6.printPattern();
         Pattern7 p7 = new Pattern7();
-        p7.printPattern();
+//        p7.printPattern();
+        FloydsTriangle ft = new FloydsTriangle();
+        ft.printPattern();
     }
 }
