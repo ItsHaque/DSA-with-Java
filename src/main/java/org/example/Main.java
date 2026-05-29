@@ -8,6 +8,8 @@ public class Main {
         Pattern2 p2 = new Pattern2();
 //        p2.printPattern();
         Pattern3 p3 = new Pattern3();
-        p3.printPattern();
+//        p3.printPattern();
+        Pattern4 p4 = new Pattern4();
+        p4.printPattern();
     }
 }
