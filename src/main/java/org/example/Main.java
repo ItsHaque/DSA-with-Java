@@ -12,6 +12,8 @@ public class Main {
         Pattern4 p4 = new Pattern4();
 //        p4.printPattern();
         Pattern5 p5 = new Pattern5();
-        p5.printPattern();
+//        p5.printPattern();
+        Pattern6 p6 = new Pattern6();
+        p6.printPattern();
     }
 }
