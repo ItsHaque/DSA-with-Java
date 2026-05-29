@@ -18,6 +18,8 @@ public class Main {
         Pattern7 p7 = new Pattern7();
 //        p7.printPattern();
         FloydsTriangle ft = new FloydsTriangle();
-        ft.printPattern();
+//        ft.printPattern();
+        BinaryTriangle bt = new BinaryTriangle();
+        bt.printPattern();
     }
 }
