@@ -20,6 +20,8 @@ public class Main {
         FloydsTriangle ft = new FloydsTriangle();
 //        ft.printPattern();
         BinaryTriangle bt = new BinaryTriangle();
-        bt.printPattern();
+//        bt.printPattern();
+        Butterfly btf = new Butterfly();
+        btf.printPattern();
     }
 }
