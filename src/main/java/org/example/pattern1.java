@@ -1,6 +1,15 @@
 package org.example;
 
 
+/*
+*****
+*****
+*****
+*****
+*****
+*/
+
+
 public class pattern1 {
     public void printPattern(){
         for(int i=0;i<5;++i){
