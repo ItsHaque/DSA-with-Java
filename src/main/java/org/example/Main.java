@@ -6,6 +6,8 @@ public class Main {
 //        p.printPattern();
 
         Pattern2 p2 = new Pattern2();
-        p2.printPattern();
+//        p2.printPattern();
+        Pattern3 p3 = new Pattern3();
+        p3.printPattern();
     }
 }
