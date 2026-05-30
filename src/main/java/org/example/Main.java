@@ -27,7 +27,9 @@ public class Main {
 //        sr.printPattern();
 //        sr.printPattern2();
         NumberPyramid np = new NumberPyramid();
-        np.printPattern();
-        np.printPattern2();
+//        np.printPattern();
+//        np.printPattern2();
+        PalindromicPyramid pp = new PalindromicPyramid();
+        pp.printPattern();
     }
 }
