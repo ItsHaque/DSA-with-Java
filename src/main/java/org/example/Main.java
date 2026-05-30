@@ -25,6 +25,9 @@ public class Main {
 //        btf.printPattern();
         SolidRhombus sr = new SolidRhombus();
 //        sr.printPattern();
-        sr.printPattern2();
+//        sr.printPattern2();
+        NumberPyramid np = new NumberPyramid();
+        np.printPattern();
+        np.printPattern2();
     }
 }
