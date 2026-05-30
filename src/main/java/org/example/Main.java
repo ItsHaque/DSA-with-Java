@@ -22,6 +22,9 @@ public class Main {
         BinaryTriangle bt = new BinaryTriangle();
 //        bt.printPattern();
         Butterfly btf = new Butterfly();
-        btf.printPattern();
+//        btf.printPattern();
+        SolidRhombus sr = new SolidRhombus();
+//        sr.printPattern();
+        sr.printPattern2();
     }
 }
