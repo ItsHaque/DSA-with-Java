@@ -30,6 +30,8 @@ public class Main {
 //        np.printPattern();
 //        np.printPattern2();
         PalindromicPyramid pp = new PalindromicPyramid();
-        pp.printPattern();
+//        pp.printPattern();
+        Diamond d = new Diamond();
+        d.printPattern();
     }
 }
