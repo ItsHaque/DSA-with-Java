@@ -25,5 +25,51 @@ public class Strings {
         System.out.println(name.substring(14));// syntax: substring(beginning index) // if not given the function takes the length of the string as ending index
     }
 
+    public void StringBuilderTutorial(){
+        StringBuilder sb = new StringBuilder("Nishat");
+        System.out.println(sb);
+
+        System.out.println(sb.charAt(4));
+
+        sb.setCharAt(5,'l');// set character at specific index
+        System.out.println(sb);
+
+        sb.insert(0,'T');// insert char at an index, this pushes the later characters 1 index forward.
+        System.out.println(sb);
+
+        sb.delete(0,1);//deletes everything between start and end index. end index is exclusive here.
+        System.out.println(sb);
+
+        sb.setCharAt(sb.length()-1,'t');
+        System.out.println(sb);
+
+        sb.append(' ');
+        sb.append('J');
+        sb.append('u');
+        sb.append('t');
+        sb.append('h');
+        sb.append('y');
+
+        System.out.println(sb);
+    }
+
+    public void reverseString(){
+        StringBuilder name = new StringBuilder("Nishat Tasnim Juthy");
+
+        System.out.println(name);
+
+        int n=name.length(), m=n/2;
+
+        for(int i=0; i<m; ++i){
+            swap(name, i, n-i-1);
+        }
+        System.out.println(name);
+    }
+
+    public void swap(StringBuilder sb, int pos1, int pos2){
+        char t= sb.charAt(pos1);
+        sb.setCharAt(pos1,sb.charAt(pos2));
+        sb.setCharAt(pos2,t);
+    }
 
 }

@@ -5,6 +5,10 @@ public class Main {
 //        TwoDArray tda = new TwoDArray();
 //        tda.func();
         Strings st = new Strings();
-        st.func();
+//        st.func();
+//        st.StringBuilderTutorial();
+        st.reverseString();
     }
+
+
 }
