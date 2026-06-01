@@ -48,7 +48,7 @@ public class Strings {
         sb.append('u');
         sb.append('t');
         sb.append('h');
-        sb.append('y');
+        sb.append('y');// adds a char at the end of the current string (StringBuilder onject).
 
         System.out.println(sb);
     }

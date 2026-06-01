@@ -7,7 +7,9 @@ public class Main {
         Strings st = new Strings();
 //        st.func();
 //        st.StringBuilderTutorial();
-        st.reverseString();
+//        st.reverseString();
+        BitManipulation bm = new BitManipulation();
+        bm.func();
     }
 
 
