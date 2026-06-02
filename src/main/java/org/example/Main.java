@@ -8,8 +8,10 @@ public class Main {
 //        st.func();
 //        st.StringBuilderTutorial();
 //        st.reverseString();
-        BitManipulation bm = new BitManipulation();
-        bm.func();
+//        BitManipulation bm = new BitManipulation();
+//        bm.func();
+        SortingAlgorithms sort = new SortingAlgorithms();
+        sort.bubbleSort();
     }
 
 
