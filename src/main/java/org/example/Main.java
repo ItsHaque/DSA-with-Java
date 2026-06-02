@@ -12,7 +12,8 @@ public class Main {
 //        bm.func();
         SortingAlgorithms sort = new SortingAlgorithms();
 //        sort.bubbleSort();
-        sort.selectionSort();
+//        sort.selectionSort();
+        sort.insertionSort();
     }
 
 

@@ -50,7 +50,7 @@ public class SortingAlgorithms {
 
         for(int i=0; i<n-1; ++i){
             int smallestEleIndex =i;
-            for(int j=i; j<n; ++j){
+            for(int j=i+1; j<n; ++j){
                 if(arr[j] < arr[smallestEleIndex]) smallestEleIndex = j;
             }
             int temp = arr[i];
@@ -63,12 +63,44 @@ public class SortingAlgorithms {
 
         for(int i=0; i<n-1; ++i){
             int LargestEleIndex =i;
-            for(int j=i; j<n; ++j){
+            for(int j=i+1; j<n; ++j){
                 if(arr[j] > arr[LargestEleIndex]) LargestEleIndex = j;
             }
             int temp = arr[i];
             arr[i] = arr[LargestEleIndex];
             arr[LargestEleIndex]= temp;
+        }
+
+        System.out.println("Sorted Array (Descending)");
+        printArr(arr);
+    }
+
+    public void insertionSort(){
+        int[] arr = {7, 8, 3, 1, 2};
+        int n= arr.length;
+
+        System.out.println("Original Array");
+        printArr(arr);
+
+        for(int i=1; i<n; ++i) {
+            int current = arr[i], j = i - 1;
+            while (j >= 0 && current < arr[j]){
+                arr[j + 1] = arr[j];
+                --j;
+            }
+            arr[j+1]= current;
+        }
+
+        System.out.println("Sorted Array (Ascending)");
+        printArr(arr);
+
+        for(int i=1; i<n; ++i) {
+            int current = arr[i], j = i - 1;
+            while (j >= 0 && current > arr[j]){
+                arr[j + 1] = arr[j];
+                --j;
+            }
+            arr[j+1]= current;
         }
 
         System.out.println("Sorted Array (Descending)");
