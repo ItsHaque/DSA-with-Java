@@ -11,7 +11,8 @@ public class Main {
 //        BitManipulation bm = new BitManipulation();
 //        bm.func();
         SortingAlgorithms sort = new SortingAlgorithms();
-        sort.bubbleSort();
+//        sort.bubbleSort();
+        sort.selectionSort();
     }
 
 
