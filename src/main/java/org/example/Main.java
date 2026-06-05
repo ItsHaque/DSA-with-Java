@@ -14,14 +14,16 @@ public class Main {
 //        sort.bubbleSort();
 //        sort.selectionSort();
 //        sort.insertionSort();
-        Recursion rec = new Recursion();
-//        System.out.println(rec.calcSum(7));
-//        System.out.println(rec.factorial(5));
-//
-//        System.out.println("Fibonacci series: \n0\n1");
-//        rec.fibonacci(0,1,5);
-        System.out.println(rec.calcPower(5,4));
-        System.out.println(rec.calcPower2(5,4));
+//        Recursion rec = new Recursion();
+////        System.out.println(rec.calcSum(7));
+////        System.out.println(rec.factorial(5));
+////
+////        System.out.println("Fibonacci series: \n0\n1");
+////        rec.fibonacci(0,1,5);
+//        System.out.println(rec.calcPower(5,4));
+//        System.out.println(rec.calcPower2(5,4));
+        TowerofHanoi th = new TowerofHanoi();
+        th.tower(3, "source", "helper", "destination");
     }
 
 
