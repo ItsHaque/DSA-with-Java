@@ -23,9 +23,10 @@
     }
 
     public int calcPower2(int x, int n){//stack height = log(n)
-        if(n==1) return x;
+        if(n==0) return 1;
         if(x==0) return 0;
-        if((n&1)==1) return x * calcPower(x, n/2) * calcPower(x, n/2);
-        else return calcPower(x, n/2) * calcPower(x, n/2);
+        int result = calcPower(x, n/2);
+        if((n&1)==1) return x * result * result;
+        else return result * result;
     }
    ```
