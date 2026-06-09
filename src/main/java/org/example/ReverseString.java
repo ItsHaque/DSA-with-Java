@@ -6,4 +6,10 @@ public class ReverseString {
         rev(str,n+1);
         System.out.print(str.charAt(n));
     }
+
+    public void rev2(String str){
+        if(str.isEmpty()) return;
+        rev2(str.substring(1));
+        System.out.print(str.charAt(0));
+    }
 }

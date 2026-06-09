@@ -27,6 +27,8 @@ public class Main {
         ReverseString rs = new ReverseString();
         String str = "Nishat Juthy";
         rs.rev(str, 0);
+        System.out.println();
+        rs.rev2(str);
     }
 
 
